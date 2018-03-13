@@ -3,3 +3,9 @@ https://www.linuxidc.com/Linux/2016-05/131096.htm
 http://blog.csdn.net/qq551551/article/details/78885704
 2. ubuntu16.04 安装chrome 或 chromium无法启动问题解决
 http://blog.csdn.net/qq_22551385/article/details/78172178
+
+
+3. 开启sshd服务，和Fedora有区别
+sudo apt-get install openssh-server
+sudo apt-get install openssh-client
+sudo systemctl start  ssh.service
