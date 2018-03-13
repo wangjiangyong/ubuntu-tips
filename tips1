@@ -9,3 +9,6 @@ http://blog.csdn.net/qq_22551385/article/details/78172178
 sudo apt-get install openssh-server
 sudo apt-get install openssh-client
 sudo systemctl start  ssh.service
+
+4. 将 Ubuntu 16.04 LTS 的 Unity 启动器移动到桌面底部
+https://www.linuxidc.com/Linux/2016-03/129359.htm
