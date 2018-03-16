@@ -12,3 +12,32 @@ sudo systemctl start  ssh.service
 
 4. 将 Ubuntu 16.04 LTS 的 Unity 启动器移动到桌面底部
 https://www.linuxidc.com/Linux/2016-03/129359.htm
+
+
+5. Ubuntu16.04+ 1080深度学习环境配置
+1) 驱动安装 一般三种方法：
+a. PPA源：最简便，但未必有最新驱动（亲测），或可能遇到问题（风闻）。
+b. 安装CUDA时，使用CUDA集成的驱动：未必是最新驱动（亲测）。 
+c. 去官网下载最新驱动，然后本地安装（本文用runfile）。（推荐）可能会遇到gcc版本问题。
+
+驱动安装详情：
+http://blog.csdn.net/cosmoshua/article/details/76644029
+
+2） 安装CUDA
+注意安装完成后，配置环境变量
+
+3） 安装cudnn
+注意选择版本，这里选择的是cuda8+cudnn6
+tar -xzf cudnn-8.0-linux-x64-v6.0.tgz
+cd cuda
+sudo cp lib64/* /usr/local/cuda/lib64/
+sudo cp include/* /usr/local/cuda/include/
+
+4）禁用Secure Boot
+BIOS设置
+
+详情：
+https://www.jianshu.com/p/5b708817f5d8?from=groupmessage
+
+5） 深度学习框架安装
+
