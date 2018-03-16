@@ -41,3 +41,8 @@ https://www.jianshu.com/p/5b708817f5d8?from=groupmessage
 
 5） 深度学习框架安装
 
+
+6. PyCharm新建项目时， Anaconda installation is not found问题
+由于pycharm在寻找anaconda时会默认从%HOMEPATH%/anaconda找，因此一个简单的办法是建立anaconda安装目录与该目录的链接
+http://blog.csdn.net/CrisisLee/article/details/78744317
+
