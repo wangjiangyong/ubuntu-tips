@@ -46,3 +46,8 @@ https://www.jianshu.com/p/5b708817f5d8?from=groupmessage
 由于pycharm在寻找anaconda时会默认从%HOMEPATH%/anaconda找，因此一个简单的办法是建立anaconda安装目录与该目录的链接
 http://blog.csdn.net/CrisisLee/article/details/78744317
 
+7. ubuntu远程桌面配置
+a)在 Dash 中打开 桌面共享
+b)运行dconf-editor，把加密选项去掉。
+c)回到Windows，运行vnc viewer
+https://www.linuxidc.com/Linux/2016-06/132442.htm
