@@ -51,3 +51,9 @@ a)在 Dash 中打开 桌面共享
 b)运行dconf-editor，把加密选项去掉。
 c)回到Windows，运行vnc viewer
 https://www.linuxidc.com/Linux/2016-06/132442.htm
+
+
+8. 在Ubuntu中用anaconda快速安装opencv3
+a) 在https://anaconda.org/menpo/opencv3/files下载了包：比如opencv3-3.1.0-py36_0.tar.bz2
+b) conda install opencv3-3.1.0-py36_0.tar.bz2
+https://blog.csdn.net/isuccess88/article/details/73546835
