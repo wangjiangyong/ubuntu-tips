@@ -57,3 +57,9 @@ https://www.linuxidc.com/Linux/2016-06/132442.htm
 a) 在https://anaconda.org/menpo/opencv3/files下载了包：比如opencv3-3.1.0-py36_0.tar.bz2
 b) conda install opencv3-3.1.0-py36_0.tar.bz2
 https://blog.csdn.net/isuccess88/article/details/73546835
+
+9. 配置远程访问jupyter-notebook
+a) $jupyter-notebook --generate-config
+b) 使用ipython，创建密码
+c) 修改~/.jupyter/jupyter_notebook_config.py 
+https://blog.csdn.net/bitboy_star/article/details/51427306
