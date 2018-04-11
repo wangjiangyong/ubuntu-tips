@@ -25,6 +25,11 @@ c. 去官网下载最新驱动，然后本地安装（本文用runfile）。（�
 http://blog.csdn.net/cosmoshua/article/details/76644029
 
 2） 安装CUDA
+a. Create a file at /etc/modprobe.d/blacklist-nouveau.conf with the following contents:
+   blacklist nouveau
+   options nouveau modeset=0
+b. Regenerate the kernel initramfs:
+   $ sudo update-initramfs -u
 注意安装完成后，配置环境变量
 
 3） 安装cudnn
