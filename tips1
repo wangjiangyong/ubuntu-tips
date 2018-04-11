@@ -11,6 +11,7 @@ sudo apt-get install openssh-client
 sudo systemctl start  ssh.service
 
 4. 将 Ubuntu 16.04 LTS 的 Unity 启动器移动到桌面底部
+gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 https://www.linuxidc.com/Linux/2016-03/129359.htm
 
 
