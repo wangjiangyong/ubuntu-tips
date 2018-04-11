@@ -31,6 +31,9 @@ a. Create a file at /etc/modprobe.d/blacklist-nouveau.conf with the following co
 b. Regenerate the kernel initramfs:
    $ sudo update-initramfs -u
 注意安装完成后，配置环境变量
+  输入：sudo vi /etc/profile，在底部插入以下两句话：
+  export PATH=/usr/local/cuda-8.0/bin:$PATH
+  export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
 3） 安装cudnn
 注意选择版本，这里选择的是cuda8+cudnn6
