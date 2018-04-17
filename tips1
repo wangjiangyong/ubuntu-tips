@@ -86,3 +86,11 @@ http://blog.crazyman.top/2015/04/29/%E9%87%8D%E8%A3%85%E5%AE%89%E8%A3%85Ubutnu/
 12. 临时配置ip
 即时生效:
 ifconfig eth0 192.168.21.2 netmask 255.255.255.0
+
+13. python优先级设置
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
+sudo update-alternatives --config python
+https://gist.github.com/patrickmmartin/5b6b2ddecd29d6a1b2ffee2d8eea31ec
+
+
